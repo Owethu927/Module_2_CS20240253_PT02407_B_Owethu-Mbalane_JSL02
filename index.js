@@ -4,7 +4,7 @@ const welcomeMessage = () => {
 };
 welcomeMessage();
 
-const displayWorkoutRoutine = () => {
+/*onst displayWorkoutRoutine = () => {
     const workoutInput = document.querySelector('#workoutInput').value;
     const workoutList = document.querySelector('#workoutList');
     const newWorkout = document.createElement('li');

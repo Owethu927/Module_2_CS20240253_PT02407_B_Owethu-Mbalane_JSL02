@@ -24,6 +24,12 @@ const addNewGoal = () => {
     
     // ⚠️ Hint 1: Check for duplicates
     // Use 'goalList' to get all existing goals and check if 'goalInput' matches any of them.
+
+    const prevoiusGoals = document.querySelectorAll('li')
+    for (let i = 0; i < prevoiusGoals.length; i++) {
+        text += prevoiusGoals[i] + "<br>";
+        if 
+      }
     
     // ⚠️ Hint 2: Prevent duplicates
     // If a duplicate is found, display an alert to the user and don't add the goal to the list.
@@ -39,9 +45,9 @@ const addNewGoal = () => {
     const newGoal = document.createElement('li');
     newGoal.textContent = goalInput;
     goalList.appendChild(newGoal);
-
-    // new code//
-    const previousGoal = goalInput.querySelectorAll('li');
+    
+        
+    
     
 
 
